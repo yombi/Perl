@@ -11,7 +11,7 @@ foreach(<FILE>){
   }
 }
 print "Elementos ordenados de mayor a menor:\n";
-foreach my $key ( sort { scalar(@{$hash{$b}}) <=> scalar(@{$hash{$a}}) } keys %hash ) {
+foreach $key ( sort { scalar(@{$hash{$b}}) <=> scalar(@{$hash{$a}}) } keys %hash ) {
     print "Dominio: $key\n";
 }
 close(FILE);
