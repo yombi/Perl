@@ -1,0 +1,20 @@
+Host: 104.248.27.191
+Puerto/Protocolo	Estado	Servicio	Version
+22/tcp			open	ssh	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp			open	http	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu))
+110/tcp			open	pop3	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d
+143/tcp			open	imap	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu)
+993/tcp			open	ssl/imap	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu) Dovecot imapd (Ubuntu)
+995/tcp			open	ssl/pop3	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu) Dovecot imapd (Ubuntu) Dovecot pop3d
+2525/tcp			open	smtp	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu) Dovecot imapd (Ubuntu) Dovecot pop3d Postfix smtpd
+8080/tcp			open	http	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu) Dovecot imapd (Ubuntu) Dovecot pop3d Postfix smtpd nginx 1.14.0 (Ubuntu)
+Host: 104.248.27.190
+Puerto/Protocolo	Estado	Servicio	Version
+22/tcp			open	ssh	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp			open	http	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu))
+110/tcp			open	pop3	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d
+143/tcp			open	imap	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu)
+993/tcp			open	ssl/imap	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu) Dovecot imapd (Ubuntu)
+995/tcp			open	ssl/pop3	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu) Dovecot imapd (Ubuntu) Dovecot pop3d
+2525/tcp			open	smtp	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu) Dovecot imapd (Ubuntu) Dovecot pop3d Postfix smtpd
+8080/tcp			open	http	OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) Apache httpd 2.4.29 ((Ubuntu)) Dovecot pop3d Dovecot imapd (Ubuntu) Dovecot imapd (Ubuntu) Dovecot pop3d Postfix smtpd nginx 1.14.0 (Ubuntu)
