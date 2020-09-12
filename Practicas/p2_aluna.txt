@@ -1,23 +1,23 @@
-Puerto: 995
+Puerto: 22
 	Hosts:2
 Puerto: 8080
 	Hosts:2
-Puerto: 143
-	Hosts:2
 Puerto: 2525
-	Hosts:2
-Puerto: 80
 	Hosts:2
 Puerto: 993
 	Hosts:2
+Puerto: 143
+	Hosts:2
+Puerto: 80
+	Hosts:2
 Puerto: 110
 	Hosts:2
-Puerto: 22
+Puerto: 995
 	Hosts:2
-Clasificacion: Bien conocidos
-	Cantidad:12
 Clasificacion: Registrados
 	Cantidad:4
+Clasificacion: Bien conocidos
+	Cantidad:12
 Clasificacion: open
 	Cantidad:16
 Clasificacion: tcp
