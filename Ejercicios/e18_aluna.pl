@@ -1,5 +1,5 @@
 use Crypt::OpenSSL::AES;
-open (FILE,"<:raw","e15_aluna.pl") or die $!;
+open (FILE,"<:raw",$ARGV[0]) or die $!;
 open (CIPH,">","e18_cifrado") or die $!;
 $key = "MiLlaveSecreta.,";
 
