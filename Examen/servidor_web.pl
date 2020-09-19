@@ -1,0 +1,11 @@
+require HTTP::Request;
+require LWP::UserAgent;
+use Data::Dump qw(dump);
+use strict;
+use warnings;
+my $url='http://164.90.148.203:7745/ZmxhZy50eHQ=';
+my $header = ['User-Agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36/aluna'];
+my $request = HTTP::Request->new('GET', $url, $header);
+my $ua = LWP::UserAgent->new;
+my $response = $ua->request($request);
+dump ($response);

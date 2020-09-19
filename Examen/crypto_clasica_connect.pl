@@ -1,10 +1,8 @@
-use strict;
-use warnings;
 use IO::Socket::INET;
 
 my $socket = new IO::Socket::INET(
 	PeerAddr => '164.90.148.203',
-	PeerPort => '9733',
+	PeerPort => '10101',
 	Proto => 'tcp',
 ) or die $!;
 
@@ -16,4 +14,3 @@ while (1){
 	chomp($entrada);
 	$socket->send($entrada);
 }
-close($socket);
