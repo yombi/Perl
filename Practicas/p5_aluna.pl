@@ -1,3 +1,28 @@
+#!/usr/bin/perl
+=encoding UTF-8
+=head1 NAME
+p5_aluna.pl - Calculadora cientifica.
+=head1 SYNOPSIS
+  > perl p5_aluna.pl [n op m....]
+=head2 EXAMPLES
+  # 1 + 2 + ( ( 5 * sin 25 ) / 5 / 10 ) - 3 ! - ( sqrt 4 + 3 ^ 5 )
+  > perl p5_aluna.pl 1 + 2 + ( ( 5 * s 25 ) / 5 / 10 ) -  f 3 - (  4 r 2 + 3 p 5 )
+  # ( ( 2 + 1 ) * 3 ) !
+  > perl p5_aluna.pl f ( ( 2 + 1 ) * 3 )
+=head1 DESCRIPTION
+Este script permite realizar operaciones que haría una calculadora cientifica simple.
+Soporta las operaciones de:
+-Suma,Resta
+-Multiplicación,división
+-Potencia n-esima(m p n), raíz n-esima(m r n)
+-Factorial(f n)
+-Seno(s),coseno(c),tangente(t),cotangente(z)
+=head1 LICENSE
+Este script fue creado bajo una licencia artística.
+Ver L<perlartistic>.
+=head1 AUTHOR
+Abraham Ivan Luna Castañeda - PBSI 14G
+=cut
 use Data::Dump qw(dump);
 use Math::Trig;
 sub jeraq{
